@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 725887542564569325}
   - component: {fileID: 3181344040462902208}
   - component: {fileID: 4386564564441726051}
+  - component: {fileID: 660512717247278234}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -237,6 +238,29 @@ MonoBehaviour:
   speed: 5
   playerCamera: {fileID: 3263674632707590273}
   inputReader: {fileID: 11400000, guid: a87a849c1dec56045b8056d2797cd996, type: 2}
+--- !u!114 &660512717247278234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6146472037450829365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f65bbaeb1ef2145b246d66a8b583f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AttackHandler
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  initialAttacks:
+  - {fileID: 11400000, guid: 026f2753dc3ce8444b4f412d1013ac7d, type: 2}
 --- !u!1001 &6855872207426355543
 PrefabInstance:
   m_ObjectHideFlags: 0
